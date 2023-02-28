@@ -9,8 +9,11 @@ interface Post {
   title: string;
   body: string;
 }
-
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 const fetchPosts = async (): Promise<Post[]> => {
+  await sleep(2000);
   return fetch("https://jsonplaceholder.typicode.com/posts", {
     cache: "no-store",
   }).then((res) => res.json());
@@ -21,7 +24,6 @@ export default async function PostsPage() {
 
   return (
     <main className={styles.main + " " + postsStyles.main}>
-      <div className={styles.description}>Posts:</div>
       <div className={postsStyles["post-link"]}>
         {posts.map((post) => (
           <span key={post.id} className={postsStyles["post-link__container"]}>
