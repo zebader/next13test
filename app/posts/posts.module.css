@@ -1,0 +1,21 @@
+.main {
+  justify-content: flex-start;
+}
+.post-link {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.post-link .post-link__container {
+  margin: 10px;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  border-radius: 10px;
+}
+.post-link a {
+  margin: 10px;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  border-radius: 10px;
+}

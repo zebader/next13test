@@ -3,16 +3,16 @@ import Link from "next/link"
 import styles from './Header.module.css'
 const links = [
   {
-   label:"Home",
-   route:'/'   
+    label:"Home",
+    route:'/'   
   },
   {
-       label:'About',
+      label:'About',
       route:'/about'
   },
   {
     label:'Posts',
-   route:'/posts'
+    route:'/posts'
 }
 ]
 export default function Header() {

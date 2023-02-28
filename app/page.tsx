@@ -1,11 +1,9 @@
-import styles from './page.module.css'
+import styles from "./page.module.css";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        Home
-      </div>
+      <div className={styles.description}>Home</div>
     </main>
-  )
+  );
 }
