@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../page.module.css";
+import styles from "../../page.module.css";
 import postsStyles from "./posts.module.css";
 import LikePostButton from "./components/LikePostButton";
 
