@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  padding: 20px;
+}
+
+.header nav ul{
+  display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.header nav ul li a.link:hover{
+  color: blueviolet;
+
+}

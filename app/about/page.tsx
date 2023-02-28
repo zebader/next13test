@@ -1,10 +1,10 @@
-import styles from './page.module.css'
+import styles from '../page.module.css'
 
-export default function Home() {
+export default function About() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        Home
+           About
       </div>
     </main>
   )
